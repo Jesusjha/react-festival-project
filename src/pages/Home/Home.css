@@ -1,0 +1,40 @@
+.home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/images/home-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.home__logo {
+  height: 20rem;
+  top: 15rem;
+}
+
+.home__btn {
+  width: 16rem;
+  height: 3.8rem;
+  margin-top: 2rem;
+  bottom: 15rem;
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-family: var(--project-font);
+  font-size: .9rem;
+  font-weight: 600;
+  letter-spacing: .3rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.home__btn:hover {
+  border: none;
+  color:#31abb4f5;
+  background-color: #c5f7ff;
+  box-shadow: 0 0 50px #2de9f6dd;
+}
