@@ -17,8 +17,8 @@ function RouterPath() {
 				<Route path='faq' element={<Faq />} />
 				<Route path='contact' element={<Contact />} />
 				<Route path='login' element={<Login />} />
-			</Route>
 				<Route path='*' element={<NotFound />} />
+			</Route>
 		</Routes>
 	);
 }
