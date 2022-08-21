@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "json-server -w ./src/data/db.json"
+    "server": "json-server -p 3333 -w ./src/data/db.json"
   },
   "dependencies": {
     "bootstrap": "^5.2.0",
