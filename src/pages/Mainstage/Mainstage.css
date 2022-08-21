@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../../assets/images/mainstage-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main__container {
+  margin: 3rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.title__store {
+  margin: 0 auto;
+  font-family: var(--project-font);
+  margin-bottom: 1.5rem;
+  padding: .5rem .6rem;
+  border: 1px solid #a19434;
+  color: #a19434;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: .4rem;
+}
+
+.store__container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}

@@ -8,7 +8,7 @@ import CarouselEDC from '../../../../assets/images/carousel-EDC.jpg';
 const CarouselFest = () => {
 	return (
 		<div className='carousel__container'>
-    <Carousel fade>
+    <Carousel fade variant="dark">
       <Carousel.Item>
         <img
           className="item__image d-block"
