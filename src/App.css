@@ -1,9 +1,10 @@
 @import url(./assets/css/reset.css);
 
-#root {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
+div#root {
+  width: 100%;
+}
+
+:root {
   --project-font: 'Inter', sans-serif;
   --btn-color: #2bb0c7;
 }
