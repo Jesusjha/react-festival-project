@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Ticket.css';
 
 
-const Ticket = ({ url, title, location, price, description, image }) => {
+const Ticket = ({ id, url, title, location, price, description, image }) => {
 	return (
 		<section className='ticket__card--container'>
 			<img src={image} alt={title} className='ticket__card--img' />
@@ -14,7 +14,7 @@ const Ticket = ({ url, title, location, price, description, image }) => {
 				</p>
 				<p className='ticket__card--description'>
 					{description}{' '}
-					<Link className='ticket__description--link' to={url}>Read more...</Link>
+					<Link className='ticket__description--link' to={id.toString()}>Read more...</Link>
 				</p>
 				<article className='order__card--container'>
 					<p className='ticket__card--price'>{price}.00€</p>

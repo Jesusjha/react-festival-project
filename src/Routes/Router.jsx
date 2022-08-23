@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from '../components/Navbar/Navbar';
+import Checkout from '../pages/Checkout/Checkout';
 import Contact from '../pages/Contact/Contact';
 import Faq from '../pages/Faq/Faq';
 import Home from '../pages/Home/Home';
@@ -15,10 +16,11 @@ function RouterPath() {
 			<Route index element={<Home />} />
 			<Route path='/' element={<Navbar />}>
 				<Route path='mainstage' element={<Mainstage />} />
-				<Route path='mainstage/:ticketUrl' element={<TicketDetail />} />
+				<Route path='mainstage/:festDetail' element={<TicketDetail />} />
 				<Route path='faq' element={<Faq />} />
 				<Route path='contact' element={<Contact />} />
 				<Route path='login' element={<Login />} />
+				<Route path='checkout' element={<Checkout />} />
 				<Route path='*' element={<NotFound />} />
 			</Route>
 		</Routes>
