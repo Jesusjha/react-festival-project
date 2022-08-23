@@ -7,6 +7,7 @@
       "location": "Boom, Belgium",
       "price": "535",
       "image": "../../images/ticket-tl.png",
+      "video": "HkyVTxH2fIM",
       "description": "Every EDM music fan should miss the opportunity to attend, at least once in a lifetime, this international macro festival. It's like traveling to another world for a weekend."
     },
     {
@@ -25,7 +26,7 @@
       "location": "Mexico City, Mexico",
       "price": "286",
       "image": "../../images/ticket-edc.png",
-      "description": "A truly massive event that will change everything you know about the live electronic and it has become in an event that takes the top spots in the must-visit lists of EDM fans around the world."
+      "description": "A truly massive event that will change everything you know about the live electronic and it has become in an event that takes the top spots in the must-visit lists of EDM fans around the world. "
     },
     {
       "id": 4,
@@ -36,6 +37,6 @@
       "image": "../../images/ticket-umf.png",
       "description": "For a true fan of EDM music, getting to the Ultra Music Festival 2023 is a turning point in life. The atmosphere of the total drive, energizing sound, and 3 complete days of the dancing rage make it magic."
     }
-
   ]
 }
+
