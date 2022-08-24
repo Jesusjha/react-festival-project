@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Ticket from '../Ticket/Ticket';
 import './TicketContainer.css';
 
-const TicketContainer = () => {
+const TicketContainer = ({ removeTicket, addTicket, cart, setCart }) => {
 	const urlTicket = 'http://localhost:3333/tickets';
 
 	const [ticket, setTicket] = useState([]);
@@ -24,15 +24,19 @@ const TicketContainer = () => {
 			{ticket.map(({ id, url, title, location, price, description, image }) => {
 				return (
 					<Ticket
-						key={id}
-						id={id}
-						url={url}
-						title={title}
-						location={location}
-						price={price}
-						description={description}
-            image={image}
-						ticket={ticket}
+							key={id}
+							id={id}
+							url={url}
+							title={title}
+							location={location}
+							price={price}          
+							description={description}
+							image={image}
+							cart={cart}
+							setCart={setCart}
+							addTicket={addTicket}
+							removeTicket={removeTicket}
+							ticket={ticket}
 					/>
 				);
 			})}

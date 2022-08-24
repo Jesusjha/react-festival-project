@@ -3,8 +3,8 @@ import { OrderBtn } from '../../../../ui/OrderBtn/OrderBtn';
 import { Link } from 'react-router-dom';
 import './Ticket.css';
 
+const Ticket = ({ id, title, location, price, description, image, addTicket }) => {
 
-const Ticket = ({ id, url, title, location, price, description, image }) => {
 	return (
 		<section className='ticket__card--container'>
 			<img src={image} alt={title} className='ticket__card--img' />
@@ -18,7 +18,7 @@ const Ticket = ({ id, url, title, location, price, description, image }) => {
 				</p>
 				<article className='order__card--container'>
 					<p className='ticket__card--price'>{price}.00€</p>
-					<OrderBtn>
+					<OrderBtn onClick={() => addTicket(id, title, price)}>
 						<i className='bx bxs-shopping-bag'></i> ORDER
 					</OrderBtn>
 				</article>

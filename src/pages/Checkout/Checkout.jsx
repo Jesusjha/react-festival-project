@@ -1,8 +1,17 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import './Checkout.css';
 
 const Checkout = () => {
+
+  const navigate = useNavigate();
+
+  const toMainstage = () => {
+    navigate('/mainstage', {
+      replace: true
+    });
+  }
 
   const buyNow = () => {
 		Swal.fire({
@@ -48,7 +57,7 @@ const Checkout = () => {
     </form>
         {/* <p className='payment__price--p'>{priceTicket()}.00€</p> */}
     
-    <button className='payment__btn' onClick={buyNow}>BUY NOW</button>
+    <button className='payment__btn' onClick={toMainstage}>BUY NOW</button>
       
   </main>
   )

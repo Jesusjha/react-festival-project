@@ -1,11 +1,10 @@
-.counter__btn--container{
-  display: flex;
-
+.counter__btn--container {
+	display: flex;
 }
 
-.counter__btn{
-  border: none;
-  background-color: transparent;
-  color: #1e1e1e;
-  font-size: 1.1rem;
+.counter__btn {
+	border: none;
+	background-color: transparent;
+	color: #1e1e1e;
+	font-size: 1.1rem;
 }
