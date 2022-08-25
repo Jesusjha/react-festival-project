@@ -42,7 +42,7 @@ const Cart = () => {
 				<article className='cart__price--money'>
           <p>{discountSign}€</p>
 					<p>Tax: 21%</p>
-					<p>TOTAL: {priceTicket()},00€</p>
+					<p><span className="total__money--style">TOTAL:</span> {priceTicket()},00€</p>
 				</article>
 				<article className='cart__checkout--container'>
 				<Link to='/checkout'><button className='cart__checkout--btn' type='button'>CHECKOUT</button></Link>

@@ -1,5 +1,7 @@
 .counter__btn--container {
 	display: flex;
+	justify-content: space-between;
+	width: 3rem;
 }
 
 .counter__btn {

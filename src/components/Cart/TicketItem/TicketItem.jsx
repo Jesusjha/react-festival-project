@@ -20,7 +20,9 @@ const TicketItem = ({
 				</article>
 				<article className='item__price--btn'>
 					<p className='item__price'>{qty * price}.00€</p>
-					<CounterBtn className='item__btn' priceTicket={priceTicket} removeTicket={removeTicket}	addTicket={addTicket} qty={qty} id={id} title={title} price={price} />
+					<div className="item__btn">
+						<CounterBtn priceTicket={priceTicket} removeTicket={removeTicket}	addTicket={addTicket} qty={qty} id={id} title={title} price={price} />
+					</div>
 				</article>
 			</section>
 		</>
