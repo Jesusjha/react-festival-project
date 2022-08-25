@@ -17,26 +17,28 @@
       "location": "Valencia, Spain",
       "price": "330",
       "image": "../../images/ticket-mf.png",
-      "description": "Medusa Sunbeach is a huge electronic music festival held in the Spanish coastal town of Cullera. Across six days, visually spectacular stages play host to a lineup of superstars from the worlds of EDM."
+      "video": "CbRoIUjeNM8",
+      "description": "Medusa Sunbeach is a huge electronic music festival held in the Spanish coastal town of Cullera. Across six days host to a lineup of superstars from the worlds of EDM."
     },
     {
       "id": 3,
       "url": "edc",
       "title": "Electric Daisy Carnival",
-      "location": "Mexico City, Mexico",
+      "location": "Las Vegas, USA",
       "price": "286",
       "image": "../../images/ticket-edc.png",
+      "video": "EChd8F4mw_g",
       "description": "A truly massive event that will change everything you know about the live electronic and it has become in an event that takes the top spots in the must-visit lists of EDM fans around the world. "
     },
     {
       "id": 4,
       "url": "umf",
-      "title": "Ultra Music Festival",
-      "location": "Miami, USA",
+      "title": "Ultra Music Korea",
+      "location": "South Korea",
       "price": "450",
       "image": "../../images/ticket-umf.png",
-      "description": "For a true fan of EDM music, getting to the Ultra Music Festival 2023 is a turning point in life. The atmosphere of the total drive, energizing sound, and 3 complete days of the dancing rage make it magic."
+      "video": "nNe4RUHpLWI",
+      "description": "For a true fan of EDM music, getting to the Ultra Music Festival 2023 is a turning point in life. The atmosphere of the total drive and 3 complete days of the dancing rage make it magic."
     }
   ]
 }
-
