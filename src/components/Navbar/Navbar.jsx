@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Navbar.css';
 import logoNav from '../../assets/images/logo-nav.svg';
 import { Link, Outlet } from 'react-router-dom';
+import { AuthContext } from '../../context/AuthContext/AuthContext';
 
 const Navbar = () => {
+	const { user, setUser, Logout, Login } = useContext(AuthContext);
+
+	const btnLogout = <Link to='/mainstage'> <button onClick={() => setUser({name:'', email:''})}>Logout</button> </Link>
+	const btnLogin = <Link to='/login'> <button>Login</button> </Link>
+
 	return (
 		<>
 			<nav className='nav__container'>
@@ -15,11 +21,11 @@ const Navbar = () => {
 						FAQ
 					</Link>
 					<Link className='nav__menu--link' to='/contact'>
-						Contact Us
+						{user.name !== '' ? <p><i className='bx bx-user-circle'></i>{user.name}</p> : <p> Quest </p>}
 					</Link>
-					<Link className='nav__menu--link' to='/login'>
-						Login
-					</Link>
+					{/* <Link className='nav__menu--link' to='/login'> */}
+						{ user.name !== '' ? btnLogout : btnLogin }
+					{/* </Link> */}
 				</div>
 			</nav>
 			<section>
