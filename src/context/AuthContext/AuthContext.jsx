@@ -32,9 +32,9 @@ const AuthContextProvider = ({ children }) => {
       });
 
 		} else if (details.email === '' || details.password === '') {
-			setError('Write email and password');
+			setError('Please write email and password');
 		} else {
-			setError('Wrong email and password');
+			setError('Wrong email or password');
 		}
 	};
 
