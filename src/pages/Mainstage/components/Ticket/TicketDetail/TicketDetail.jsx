@@ -35,7 +35,7 @@ const TicketDetail = () => {
 		<>
       <h1 className="detail__title">{title}</h1>
 			<div>
-      <ReactPlayer url={`https://www.youtube.com/embed/${video}`} controls='true' previewTabIndex />
+      <ReactPlayer url={`https://www.youtube.com/embed/${video}`} controls={true} />
     </div>
 		</>
 	);
