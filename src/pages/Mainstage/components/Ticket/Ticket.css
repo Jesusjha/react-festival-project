@@ -18,16 +18,25 @@
 
 }
 
-.ticket__card--title {
+.ticket__card--p{
   margin-bottom: .8rem;
+}
+
+.ticket__card--title {
+  text-decoration: none;
   color: #a19434;
   text-transform: uppercase;
   font-size: .9rem;
   font-weight: 700;
 }
 
+.ticket__card--title:hover {
+  color: #d8d19a;
+}
+
 .ticket__card--location {
   margin-left: .5rem;
+  text-decoration: none;
   color: #d8d19a;
   font-size: .6rem;
   font-weight: 300;

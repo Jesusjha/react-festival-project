@@ -7,10 +7,10 @@ const Ticket = ({ id, title, location, price, description, image, addTicket }) =
 
 	return (
 		<section className='ticket__card--container'>
-			<img src={image} alt={title} className='ticket__card--img' />
+			<Link to={id.toString()}><img className='ticket__card--img' src={image} alt={title} /></Link>
 			<article className='ticket__card__article'>
-				<p className='ticket__card--title'>
-					{title} <span className='ticket__card--location'>{location}</span>
+				<p className='ticket__card--p'>
+					<Link className='ticket__card--title' to={id.toString()}>{title}</Link> <span className='ticket__card--location'>{location}</span>
 				</p>
 				<p className='ticket__card--description'>
 					{description}{' '}
