@@ -13,22 +13,61 @@
 .nav__menu--container {
   display: flex;
   justify-content: space-between;
-  width: 13rem;
+  width: 11rem;
 }
 
-.nav__menu--link {
+.nav__menu--user {
+  display: flex;
+  align-items: center;
+  position: relative;
   text-decoration: none;
   font-family: var(--project-font);
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 200;
 }
 
-.nav__menu--link:hover {
-  color: #a19434;
-}
-
-.nav__menu--link:hover:nth-child(3) {
-  font-weight: 500;
+.nav__menu--user:hover {
   color: #31abb4;
 }
+
+.navbar__user--icon {
+  margin-right: .3rem;
+  position: absolute;
+  top: .35rem;
+  right: 2.7rem;
+  font-size: 1.3rem;
+}
+
+.navbar__login--btn {
+  padding: .3rem 1rem;
+  border: none;
+  border-radius: .6rem;
+  background: #31abb4;
+  font-family: var(--project-font);
+  color: #090909;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.navbar__login--btn:hover {
+  border: none;
+  color:#31abb4f5;
+  background-color: #c5f7ff;
+  box-shadow: 0 0 10px #2de9f6dd;
+}
+
+.navbar__logout--btn {
+  padding: .3rem 1rem;
+  border-radius: .6rem;
+  background: #cc972b;
+  font-family: var(--project-font);
+  color: #090909;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.navbar__logout--btn:hover {
+  background: #ddd;
+}
+
