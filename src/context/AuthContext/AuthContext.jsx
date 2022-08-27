@@ -32,9 +32,9 @@ const AuthContextProvider = ({ children }) => {
       });
 
 		} else if (details.email === '' || details.password === '') {
-			setError('Please write email and password');
+			setError(<p style={{padding: '.4rem 1.5rem', backgroundColor:'#F4821D', borderRadius: '.9rem' ,color:'#fff'}}>Please, write Email and Password</p>);
 		} else {
-			setError('Wrong email or password');
+			setError(<p style={{padding: '.4rem 1.5rem', backgroundColor:'#b00000', borderRadius: '.9rem' ,color:'#fff'}}>Wrong Email and Password</p>);
 		}
 	};
 
