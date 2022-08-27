@@ -32,10 +32,11 @@ function RouterPath() {
 						</ProtectedRoutes>
 					}
 				/>
-				<Route path='*' element={<NotFound />} />
 			</Route>
+				<Route path='*' element={<NotFound replace />} />
 		</Routes>
 	);
 }
 
 export default RouterPath;
+ 
