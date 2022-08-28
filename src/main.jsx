@@ -6,7 +6,7 @@ import Scrollbars from 'react-custom-scrollbars-2';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<BrowserRouter>
-		<Scrollbars>
+		<Scrollbars universal>
 			<App />
 		</Scrollbars>
 	</BrowserRouter>
