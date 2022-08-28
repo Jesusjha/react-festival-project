@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 30rem;
+  width: 31rem;
 }
 
 .payment__left--input,
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 14rem;
+  width: 14.5rem;
 }
 
 .payment__title--label {
@@ -54,9 +54,13 @@
 }
 
 .payment__price--p {
-  color: #242424;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: .4rem;
+  padding: .4rem;
+  color: #eee;
   font-family: var(--project-font);
   font-size: 2.2rem;
   font-weight: 500;
-  background-color: #e3e3e3;
+  background-color: rgba(238, 238, 238, 0.139);
 }
