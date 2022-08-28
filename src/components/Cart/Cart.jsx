@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import Scrollbars from 'react-custom-scrollbars-2';
 import { Link } from 'react-router-dom';
 import CartContext from '../../context/CartContext/CartContext';
+import { BlueBtn } from '../../ui/BlueBtn/BlueBtn';
 import './Cart.css';
 import TicketItem from './TicketItem/TicketItem';
 
@@ -45,7 +46,7 @@ const Cart = () => {
 					<p><span className="total__money--style">TOTAL:</span> {priceTicket()},00€</p>
 				</article>
 				<article className='cart__checkout--container'>
-				<Link to='/checkout'><button className='cart__checkout--btn' type='button'>CHECKOUT</button></Link>
+				<Link to='/checkout'><BlueBtn styleCheck type='button'>CHECKOUT</BlueBtn></Link>
 
 				</article>
 			</section>
@@ -54,3 +55,4 @@ const Cart = () => {
 };
 
 export default Cart;
+/* <button className='cart__checkout--btn' type='button'>CHECKOUT</button></Link> */
