@@ -30,40 +30,6 @@ flex-direction: column;
   font-weight: 200;
 }
 
-/* .login__input{
-  width: 20rem;
-  height: 3rem;
-  margin-bottom: 2rem;
-  padding: 0 1rem;
-  border-radius: .4rem;
-  border: none;
-  font-family: var(--project-font);
-  outline: none;
-}
-
-.login__input:focus {
-  border: 3px solid #2bb0c7;
-} */
-
-.login__btn{
-  height: 2rem;
-  width: 15rem;
-  background-color:#2bb0c7;
-  border: none;
-  border-radius: .3rem;
-  font-family: var(--project-font);
-  font-size: .8rem;
-  font-weight: 500;
-  letter-spacing: .4rem;
-  color: #fff;
-  margin: 0 auto;
-}
-
-.login__btn:hover{
-  border: none;
-  box-shadow: 0 0 20px #11dafd91;
-}
-
 .login__error {
   margin-bottom: 1.5rem;
   font-family: var(--project-font);
