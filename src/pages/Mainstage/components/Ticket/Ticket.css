@@ -51,7 +51,7 @@
 .ticket__card--description {
   width: 27rem;
   margin-bottom: 1rem;
-  color: #eeeeee;
+  color: #e3e3e3;
   font-size: .81rem;
   font-weight: 200;
   text-align: justify;
@@ -75,18 +75,16 @@
   align-items: center;
   padding-top: -.5rem;
   position: sticky;
-  left: 18.3rem;
+  /* left: 18.3rem; */
 }
 
 .ticket__card--price {
   margin-bottom: 0;
+  margin-right: 1rem;
   padding: .4rem .8rem;
-  border: 1px solid #838383;
-  font-size: .9rem;
-}
-
-.ticket__card--price {
+  border: 1px solid #eee;
   color: #eee;
+  font-size: .9rem;
 }
 
 .button__card--ticket {
