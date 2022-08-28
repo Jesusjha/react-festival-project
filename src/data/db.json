@@ -8,7 +8,9 @@
       "price": "535",
       "image": "../../images/ticket-tl.png",
       "video": "HkyVTxH2fIM",
-      "description": "Every EDM music fan should miss the opportunity to attend, at least once in a lifetime, this international macro festival. It's like traveling to another world for a weekend."
+      "description": "Every EDM music fan should miss the opportunity to attend, at least once in a lifetime, this international macro festival. It's like traveling to another world for a weekend.",
+      "info":"Tomorrowland festival, the biggest and most popular EDM festival worldwide, happens in Boom annually, providing the ultimate high. It brings together hundreds or even thousands of music fans from over 200 nations under one sky and brings them closer together.\n\n     Every year since its beginning in 2005, the Tomorrowland music event has showcased only the finest of performers, electronic music, and stage decorations. It is without a doubt one of Belgium's most famous music events and is also among the music festivals you can’t miss in Europe. It is the only event worldwide that has actually given music significance and is the omnipotent of all events making it one of 2022’s top music festivals.\n\n     If music gets you euphoric and seeing the world's top DJs has always been a desire of yours, or if being a part of the mayhem is your vibe, then Tomorrowland Belgium is the place to be today, tomorrow, and always!"
+      
     },
     {
       "id": 2,
@@ -18,7 +20,9 @@
       "price": "330",
       "image": "../../images/ticket-cmf.png",
       "video": "CbRoIUjeNM8",
-      "description": "Medusa Sunbeach is a huge electronic music festival held in the Spanish coastal town of Cullera. Across six days host to a lineup of superstars from the worlds of EDM."
+      "description": "Medusa Sunbeach is a huge electronic music festival held in the Spanish coastal town of Cullera. Across six days host to a lineup of superstars from the worlds of EDM.",
+      "info":"A new edition of the Medusa Sunbeach Festival arrives after the success of its last anniversary. Advancing positions among the best known Spanish festivals of the summer, each year has a higher capacity. It has become a reference because every year it fills its posters with international stars of electronic music. In addition, its impressive staging each year leaves visitors eager to discover what it will be like the following year.\n\n     The festival, which will take place once again on the beach of Cullera, Valencia, has five areas/stages where artists will be distinguished by areas depending on the musical style: Indie, Techno, EDM, Remember and Experience Area.\n\n     Music icons such as David Guetta, deadmau5, Alesso, Carl Cox, Marshmello, W & W, Hot Since 82, Krewella, Blasterjaxx, Yves V, Pendulum (DJ Set), Joris Voorn, Ferry Corsten, Headhunterz, and countless more have passed through its stages. Come to the appointment of the year with the best electronic music from around the world!"
+      
     },
     {
       "id": 3,
@@ -28,17 +32,21 @@
       "price": "286",
       "image": "../../images/ticket-edc.png",
       "video": "EChd8F4mw_g",
-      "description": "A truly massive event that will change everything you know about the live electronic and it has become in an event that takes the top spots in the must-visit lists of EDM fans around the world. "
+      "description": "A truly massive event that will change everything you know about the live electronic and it has become in an event that takes the top spots in the must-visit lists of EDM fans around the world. ",
+      "info":"Vegas is home to the biggest celebration for electronic dance music lovers, EDC – Electric Daisy Carnival. More than 300,000 revelers head to the Las Vegas Motor Speedway for the festival, which features art, carnival rides, circus-style performances and all of the top EDM DJs in the world. More information about Las Vegas' Electric Daisy Carnival will be added as it becomes available.\n\n     Are you excited? We're so excited. We are ready to freak the funk out at EDC Las Vegas. And we hope our editors note that we said fuNk. We’re trying to be good so they don’t take away our EDC tickets. As long as we’re clutching them tighter than the outfit we’re wearing to the show – it’s gonna be sick yo – we’ll hook you up with some advanced info just to get your juices flowing.\n\n     Can you hear it? That beat in the air? They’re here! Get them quick. You never want to be that person who has to beg for a spare ticket because you waited too long. And you never want to have that moment when you collapse on to the ground in a state of disbelief because tickets sold out while you were nine hours deep into a trance binge. So buy your tickets soon. Then worry about which shoes give you the best dance to impressiveness ratio. And if you're one of the unfortunate ones who can't get tickets to EDC, we've got a whole slew of Las Vegas shows for you to watch instead."
+      
     },
     {
       "id": 4,
       "url": "umf",
-      "title": "Ultra Music Korea",
-      "location": "South Korea",
+      "title": "Ultra Music Australia",
+      "location": "Melbourne, Australia",
       "price": "450",
       "image": "../../images/ticket-umf.png",
-      "video": "eRQNKx1sM3s",
-      "description": "For a true fan of EDM music, getting to the Ultra Music Festival 2023 is a turning point in life. The atmosphere of the total drive and 3 complete days of the dancing rage make it magic."
+      "video": "fZYXF-SW6fM&ab&ab",
+      "description": "For a true fan of EDM music, getting to the Ultra Music Festival 2023 is a turning point in life. The atmosphere of the total drive and 3 complete days of the dancing rage make it magic.",
+      "info":"This festival was born in Miami and is recognized as one of the most internationally-reaching music festival brands in the world, curating diverse lineups of award-winning DJs and globe-trotting talent, Ultra Music Festival has cemented itself as the leader in the electronic music arena for live events, consistently delivering cutting-edge technology, custom-designed stages, and unparalleled productions.\n\n\n     In past years, over 40,000 Australian fans have witnessed impeccably produced events with stand-out performances high-profile artists who have dominated the international music charts such as The Chainsmokers, Martin Garrix, Marshmello, Afrojack, DJ Snake, Deborah De Luca, Eric Prydz, Zedd, Tiger Lily and Will Sparks, who have all helped to create a first-class festival experience. Returning down under once again after almost two years, you can bet this is going to be HUGE. Check out the 2019 aftermovie for an idea of what to expect."
+      
     }
   ]
 }
