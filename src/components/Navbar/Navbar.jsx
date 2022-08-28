@@ -5,7 +5,7 @@ import { Link, Outlet } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext/AuthContext';
 
 const Navbar = () => {
-	const { user, setUser, Logout, Login } = useContext(AuthContext);
+	const { user, setUser } = useContext(AuthContext);
 
 	const btnLogin = <Link to='/login'> <button className='navbar__login--btn'>Login</button> </Link>
 	const btnLogout = <Link to='/mainstage'> <button className='navbar__logout--btn' onClick={() => setUser({name:'', email:''})}>Logout</button> </Link>
@@ -21,7 +21,7 @@ const Navbar = () => {
 						FAQ
 					</Link> */}
 					<Link className='nav__menu--user' to='/contact'>
-						{user.name !== '' ? <p><i className='bx bxs-user-circle navbar__user--icon'></i>{user.name}</p> :''}
+						{user.name !== '' ? <p className='nav__user--name'>{user.name}</p> :''}
 					</Link>
 					{/* <Link className='nav__menu--link' to='/login'> */}
 						{ user.name !== '' ? btnLogout : btnLogin }

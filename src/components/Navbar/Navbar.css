@@ -4,6 +4,7 @@
   align-items: center;
   width: 70%;
   margin: 1.5rem auto;
+  
 }
 
 .nav__logo {
@@ -14,12 +15,14 @@
   display: flex;
   justify-content: space-between;
   width: 11rem;
+  
 }
 
 .nav__menu--user {
   display: flex;
+  justify-content: center;
   align-items: center;
-  position: relative;
+  width: 1rem;
   text-decoration: none;
   font-family: var(--project-font);
   color: #fff;
@@ -31,12 +34,14 @@
   color: #31abb4;
 }
 
-.navbar__user--icon {
-  margin-right: .3rem;
-  position: absolute;
-  top: .35rem;
-  right: 2.7rem;
-  font-size: 1.3rem;
+.nav__user--name {
+  border-radius: .7rem;
+  padding: .4rem 1rem;
+  background-color: #eeeeee17;
+}
+
+.nav__user--name:hover {
+  background-color: #eeeeee1d;
 }
 
 .navbar__login--btn {
@@ -58,8 +63,8 @@
 }
 
 .navbar__logout--btn {
-  padding: .3rem 1rem;
-  border-radius: .6rem;
+  padding: .4rem 1rem;
+  border-radius: .8rem;
   background: #cc972b;
   font-family: var(--project-font);
   color: #090909;
