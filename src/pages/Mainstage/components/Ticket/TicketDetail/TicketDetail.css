@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+.main__detail--container {
+  height: 90vh;
+  width: 70rem;
+  margin: 0 auto;
+  font-family: var(--project-font);
+}
+
+.detail__title--h2 {
+  padding: .7rem 0;
+  border-radius: .1rem;
+  background: #ebebeb11;
+  width: 70rem;
+  margin: 2rem 0 0;
+  color: rgb(197, 197, 197);
+  font-family: 'Aboreto', cursive;
+  font-size: 2.06rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.detail__info--section {
+  display: flex;
+  align-items: flex-start;
+  /* border-top:  2.5px solid #a2a2a2; */
+  padding-top: 1.5rem;
+}
+
+.detail__info--container {
+  width: 41.8rem;
+  text-align: justify;
+  white-space: pre-wrap;
+}
+
+.order__container {
+  /* position: relative; */
+  /* bottom: 5.5rem; */
+  /* right: 25rem; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* margin-top: 1rem; */
+}
+
+.detail__info--checkout {
+  /* position: relative; */
+  display: flex;
+  width: 70rem;
+  margin-top: 3rem;
+}
+
+.detail__info--p {
+  padding: .7rem 0;
+  border-top: 1px dashed #5d5d5d;
+  color: #e3e3e3;
+  font-size: .9rem;
+  font-weight: 200;
+  line-height: 1.5rem;
+  text-indent: 1.5rem;
+  column-count: 2;
+  column-gap: 1.5rem;
+}
+
+.detail__subtitle--span {
+  margin: 0rem 0 1rem;
+  color: #e3e3e3;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.detail__price--p {
+  margin-bottom: 0;
+  margin-right: 1rem;
+  padding: .4rem .8rem;
+  border: 1px solid #838383;
+  color: #eee;
+  font-size: .9rem;
+}
