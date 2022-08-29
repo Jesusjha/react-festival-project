@@ -1,9 +1,13 @@
 import React, { createContext, useState } from 'react';
+
 import { useNavigate } from 'react-router-dom';
 
 export const AuthContext = createContext({});
 
 const AuthContextProvider = ({ children }) => {
+
+	const [user, setUser] = useState({ name: '', email: '' });
+	const [error, setError] = useState('');
 
   const navigate = useNavigate();
 
@@ -12,26 +16,24 @@ const AuthContextProvider = ({ children }) => {
 		password: 'jesus123',
 	};
 
-	const [user, setUser] = useState({ name: '', email: '' });
-	const [error, setError] = useState('');
-
-	const Login = (details) => {
-		console.log(details);
+	const Login = ({email, password, name}) => {
 
 		if (
-			details.email === adminUser.email &&
-			details.password === adminUser.password
+			email === adminUser.email &&
+			password === adminUser.password
 		) {
 			setUser({
-				name: details.name,
-				email: details.email,
+				name: name,
+				email: email,
 			});
 
       navigate('/mainstage', {
         replace: true
       });
 
-		} else if (details.email === '' || details.password === '') {
+			/* Checking if the email and password are empty and it will set the warning message. 
+			But if the wrong email or password, it will set the error message. */
+		} else if (email === '' || password === '') {
 			setError(<p style={{padding: '.4rem 1.5rem', backgroundColor:'#F4821D', borderRadius: '.9rem' ,color:'#fff'}}>Please, write Email and Password</p>);
 		} else {
 			setError(<p style={{padding: '.4rem 1.5rem', backgroundColor:'#b00000', borderRadius: '.9rem' ,color:'#fff'}}>Wrong Email and Password</p>);

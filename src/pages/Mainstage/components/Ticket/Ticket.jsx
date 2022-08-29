@@ -1,7 +1,9 @@
 import React from 'react';
+
 import { BlueBtn } from '../../../../ui/BlueBtn/BlueBtn';
-import { Link } from 'react-router-dom';
 import './Ticket.css';
+
+import { Link } from 'react-router-dom';
 
 
 const Ticket = ({ id, title, location, price, description, image, addTicket }) => {

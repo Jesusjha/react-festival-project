@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import logoHome from '../../assets/images/logo-bg.svg';
+
 import { Link } from 'react-router-dom';
 
 const Home = () => {

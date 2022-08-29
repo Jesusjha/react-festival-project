@@ -1,8 +1,11 @@
 import React from 'react'
-import './NotFound.css'
-import { Link } from 'react-router-dom';
-import logo404 from '../../assets/images/logo-bg.svg'
+
 import { BlueBtn } from '../../ui/BlueBtn/BlueBtn';
+import logo404 from '../../assets/images/logo-bg.svg'
+import './NotFound.css'
+
+import { Link } from 'react-router-dom';
+
 
 const NotFound = () => {
   return (
@@ -14,7 +17,7 @@ const NotFound = () => {
         </article>
           <p className="notfound__number">404</p>
         <article className="notfound__subtitle--article">
-          <p className="notfound__subtitle">You are totally lost in an imaginary festival!</p>
+          <p className="notfound__subtitle">Who are you looking for?</p>
         </article>
         <Link to='/mainstage'><BlueBtn styleLog className='notfound__btn'>TAKE ME HOME</BlueBtn></Link>
       </section>

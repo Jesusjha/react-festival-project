@@ -23,7 +23,6 @@
 .detail__info--section {
   display: flex;
   align-items: flex-start;
-  /* border-top:  2.5px solid #a2a2a2; */
   padding-top: 1.5rem;
 }
 
@@ -34,17 +33,12 @@
 }
 
 .order__container {
-  /* position: relative; */
-  /* bottom: 5.5rem; */
-  /* right: 25rem; */
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  /* margin-top: 1rem; */
 }
 
 .detail__info--checkout {
-  /* position: relative; */
   display: flex;
   width: 70rem;
   margin-top: 3rem;

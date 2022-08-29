@@ -1,9 +1,11 @@
 import React, { useContext } from 'react'
 import Cart from '../../components/Cart/Cart';
-import CartContext from '../../context/CartContext/CartContext';
 import CarouselFest from './components/CarouselFest/CarouselFest';
 import TicketContainer from './components/TicketContainer/TicketContainer';
+
 import './Mainstage.css';
+
+import CartContext from '../../context/CartContext/CartContext';
 
 const Mainstage = () => {
 

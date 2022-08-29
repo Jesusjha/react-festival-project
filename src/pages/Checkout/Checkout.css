@@ -58,6 +58,7 @@
   justify-content: flex-end;
   margin-top: .4rem;
   padding: .4rem;
+  border-radius: .4rem;
   color: #eee;
   font-family: var(--project-font);
   font-size: 2.2rem;

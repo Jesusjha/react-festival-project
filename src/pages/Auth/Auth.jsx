@@ -1,28 +1,17 @@
-import { useContext, useState } from 'react';
-import { AuthContext } from '../../context/AuthContext/AuthContext';
+import { useContext, useState, useRef } from 'react';
 import { BlueBtn } from '../../ui/BlueBtn/BlueBtn';
 import { GenericInput } from '../../ui/GenericInput/GenericInput';
 import './Auth.css';
 
+import { AuthContext } from '../../context/AuthContext/AuthContext';
 
 const Auth = () => {
   
-  const {Login, user, Logout, password, error} = useContext(AuthContext)
-  
+  const {Login, user, error} = useContext(AuthContext)
 	const [details, setDetails] = useState({name:'', email:'', password:''});
-  console.log(details);
-
-  // const getEmail = localStorage.getItem(emailData)
-  // const getPassword = localStorage.getItem(passwordData)
 
 	const submitHandler = (e) => {
 		e.preventDefault();
-    
-    // if(details.email === 'jesus@mail.com' && details.password === 'jesus123') {
-    //   localStorage.setItem('emailData', details.email)
-    //   localStorage.setItem('password', details.password)
-    // }
-
 		Login(details);
 	}
 

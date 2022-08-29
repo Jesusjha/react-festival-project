@@ -15,7 +15,6 @@
 
 .ticket__card--article {
   position: relative;
-
 }
 
 .ticket__card--p{
@@ -75,7 +74,6 @@
   align-items: center;
   padding-top: -.5rem;
   position: sticky;
-  /* left: 18.3rem; */
 }
 
 .ticket__card--price {

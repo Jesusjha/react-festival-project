@@ -1,9 +1,11 @@
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom';
-import Swal from 'sweetalert2';
 import CartContext from '../../context/CartContext/CartContext';
+
 import { GenericInput } from '../../ui/GenericInput/GenericInput';
 import './Checkout.css';
+
+import Swal from 'sweetalert2';
 
 const Checkout = () => {
 
