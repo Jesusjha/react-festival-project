@@ -20,7 +20,7 @@ function RouterPath() {
 				<Route path='mainstage/:festDetail' element={<TicketDetail />} />
 				{/* <Route path='contact' element={<Contact />} /> */}
 				<Route path='login' element={<Profile />} />
-				/* A protected route. */
+				{/* A protected route. */}
 				<Route
 					path='checkout'
 					element={

@@ -1,5 +1,5 @@
 .carousel__container {
-  width: 65%;
+  min-width: 65%;
   margin: 0 auto;
 }
 
