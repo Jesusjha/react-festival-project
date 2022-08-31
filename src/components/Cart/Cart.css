@@ -20,14 +20,15 @@
 }
 
 .cart__purchase--items {
-  height: 59%;
+  height: 61%;
+  /* height: 20rem; */
 }
 
 .icon__cart{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 17rem;
+  height: 18rem;
   color: rgba(255, 255, 255, 0.105);
   font-size: 8rem;
 }

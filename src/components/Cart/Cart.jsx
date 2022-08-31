@@ -5,6 +5,7 @@ import { BlueBtn } from '../../ui/BlueBtn/BlueBtn';
 import './Cart.css';
 
 import CartContext from '../../context/CartContext/CartContext';
+import Scrollbars from 'react-custom-scrollbars-2';
 import { Link } from 'react-router-dom';
 
 const Cart = () => {
@@ -19,12 +20,13 @@ const Cart = () => {
 		<main className='cart__container'>
 			<p className='cart__title--p'>YOUR PURCHASE</p>
 			<section className='cart__purchase--items'>
+			<Scrollbars>
 				{cart.length === 0 ? (
 					<div className='text-center'>
 						<i className='bx bx-cart icon__cart'></i>
 					</div>
 				) : (
-					cart.map(({ id, title, price, qty }) => {
+					cart.map(({ id, title, price, qty, color }) => {
 						return (
 							<TicketItem
 								key={id}
@@ -35,16 +37,18 @@ const Cart = () => {
 								title={title}
 								price={price}
 								qty={qty}
+								color={color}
 							/>
 						);
 					})
 				)}
+				</Scrollbars>
 			</section>
 			<section className='cart__price--container'>
 
 				{/* Calculating the discount and the total price. */}
 				<article className='cart__price--money'>
-          <p>{discountSign}€</p>
+          <p>{discountSign.toFixed(2)}€</p>
 					<p>Tax: 21%</p>
 					<p><span className="total__money--style">TOTAL:</span> {priceTicket()},00€</p>
 				</article>
