@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import CartContext from '../../../context/CartContext/CartContext';
 import CounterBtn from '../CounterBtn/CounterBtn';
 
 import './TicketItem.css';
@@ -11,10 +12,12 @@ const TicketItem = ({
 	title,
 	price,
 	qty,
+	color
 }) => {
+
 	return (
 		<>
-			<section className='item__container'>
+			<section className='item__container' style={{backgroundImage:`url(${color})`}}>
 				<article className='item__order--qty'>
 					<p className='item__title'>{title}</p>
 

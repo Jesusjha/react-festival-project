@@ -6,7 +6,8 @@ import './Ticket.css';
 import { Link } from 'react-router-dom';
 
 
-const Ticket = ({ id, title, location, price, description, image, addTicket }) => {
+const Ticket = ({ id, title, location, price, description, image, addTicket, color }) => {
+
 
 	return (
 		<section className='ticket__card--container'>
@@ -21,7 +22,7 @@ const Ticket = ({ id, title, location, price, description, image, addTicket }) =
 				</p>
 				<article className='order__card--container'>
 					<p className='ticket__card--price'>{price}.00€</p>
-					<BlueBtn orderCheck onClick={() => addTicket(id, title, price)}>
+					<BlueBtn  orderCheck onClick={() => addTicket(id, title, price, color)}>
 						<i className='bx bxs-shopping-bag'></i> ORDER
 					</BlueBtn>
 				</article>

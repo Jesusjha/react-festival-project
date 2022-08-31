@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Ticket from '../Ticket/Ticket';
 import './TicketContainer.css';
 
-const TicketContainer = ({ removeTicket, addTicket, cart, setCart }) => {
+const TicketContainer = ({ removeTicket, addTicket, cart, setCart, color }) => {
 	const urlTicket = 'http://localhost:3333/tickets';
 
 	const [ticket, setTicket] = useState([]);
@@ -17,11 +17,13 @@ const TicketContainer = ({ removeTicket, addTicket, cart, setCart }) => {
 		const response = await fetch(urlTicket);
 		const result = await response.json();
 		setTicket(result);
+		// console.log(result[0].color)
 	};
+
 
 	return (
 		<main className='ticket__container'>
-			{ticket.map(({ id, url, title, location, price, description, image }) => {
+			{ticket.map(({ id, url, title, location, price, description, image, color }) => {
 				return (
 					<Ticket
 							key={id}
@@ -32,6 +34,7 @@ const TicketContainer = ({ removeTicket, addTicket, cart, setCart }) => {
 							price={price}          
 							description={description}
 							image={image}
+							color={color}
 							cart={cart}
 							setCart={setCart}
 							addTicket={addTicket}

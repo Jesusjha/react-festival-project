@@ -15,7 +15,7 @@ const TicketDetail = () => {
 	const { addTicket } = useContext(CartContext);
 
 	const [detail, setDetail] = useState({});
-	const { id, title, price, video, info } = detail;
+	const { id, title, price, video, info, color } = detail;
 
 	/* Destructuring the festDetail from the useParams hook. */
 	const { festDetail } = useParams();
@@ -55,7 +55,7 @@ const TicketDetail = () => {
 							<p className='detail__info--p'>{info}</p>
 					<article className='order__container'>
 						<p className='detail__price--p'>{price}.00€</p>
-						<BlueBtn onClick={() => addTicket(id, title, price)} className='detail__order--btn'><i className='bx bxs-shopping-bag'></i> ORDER</BlueBtn>
+						<BlueBtn onClick={() => addTicket(id, title, price, color)} className='detail__order--btn'><i className='bx bxs-shopping-bag'></i> ORDER</BlueBtn>
 					</article>
 						</article>
 						<Cart className='detail__cart' />

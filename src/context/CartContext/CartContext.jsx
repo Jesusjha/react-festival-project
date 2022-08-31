@@ -16,7 +16,7 @@ export const CartContextProvider = ({ children }) => {
 	/**
 	 * If the ticket exists in the cart, increase the quantity by 1, otherwise add the ticket to the cart.
 	 */
-	const addTicket = (id, title, price) => {
+	const addTicket = (id, title, price, color) => {
 		const ticketExist = cart.find((e) => e.id === id);
 
 		if (ticketExist) {
@@ -27,7 +27,7 @@ export const CartContextProvider = ({ children }) => {
 		} else {
 			const newTicketItem = [
 				...cart,
-				{ id: id, title: title, price: price, qty: 1 },
+				{ id: id, title: title, price: price, color: color, qty: 1 },
 			];
 			setCart(newTicketItem);
 		}
