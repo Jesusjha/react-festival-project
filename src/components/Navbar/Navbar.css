@@ -28,6 +28,7 @@
   color: #fff;
   font-size: 1rem;
   font-weight: 200;
+  cursor: default;
 }
 
 .nav__menu--user:hover {

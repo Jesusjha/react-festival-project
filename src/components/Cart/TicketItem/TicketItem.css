@@ -7,7 +7,6 @@
   padding: 0 1rem;
   margin: .7rem auto;
   border-radius: .4rem;
-  background-color: #3ba8c0c7;
   font-family: var(--project-font);
 }
 
@@ -20,7 +19,7 @@
 .item__price {
   color: #e4e4e4;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .item__title {
@@ -31,6 +30,7 @@
 
 .item__type {
   margin: .3rem 0 0 .05rem;
+  color: #ababab;
   font-size: .8rem;
   font-weight: 600;
 }
