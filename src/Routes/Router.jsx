@@ -13,7 +13,7 @@ import ProtectedRoutes from './ProtectedRoutes';
 function RouterPath() {
 	return (
 		<Routes>
-			/* A way to render the Navbar component on every page. */
+			{/* A way to render the Navbar component on every page. */}
 			<Route index element={<Home />} />
 			<Route path='/' element={<Navbar />}>
 				<Route path='mainstage' element={<Mainstage />} />

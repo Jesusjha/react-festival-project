@@ -31,5 +31,3 @@ const Mainstage = () => {
 }
 
 export default Mainstage
-
-/*  */

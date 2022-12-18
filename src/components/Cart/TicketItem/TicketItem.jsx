@@ -17,6 +17,7 @@ const TicketItem = ({
 
 	return (
 		<>
+			{/* it's used to dynamically set the background image to the ticketItem */}
 			<section className='item__container' style={{backgroundImage:`url(${color})`}}>
 				<article className='item__order--qty'>
 					<p className='item__title'>{title}</p>
