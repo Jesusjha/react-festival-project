@@ -2,7 +2,7 @@
   "tickets": [
     {
       "id": 1,
-      "url": "tml",
+      "url": "tomorrowland",
       "title": "Tomorrowland",
       "location": "Boom, Belgium",
       "price": "535",
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "url": "msf",
+      "url": "medusa-sunbeach",
       "title": "Medusa Sunbeach",
       "location": "Valencia, Spain",
       "price": "330",
@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "url": "edc",
+      "url": "electric-daisy-carnival",
       "title": "EDC Las Vegas",
       "location": "Las Vegas, USA",
       "price": "286",
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "url": "umf",
+      "url": "ultra-music-festival",
       "title": "Ultra Music Australia",
       "location": "Melbourne, Australia",
       "price": "450",

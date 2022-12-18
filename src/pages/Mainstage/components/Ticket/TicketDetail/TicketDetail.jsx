@@ -20,12 +20,14 @@ const TicketDetail = () => {
 	/* Destructuring the festDetail from the useParams hook. */
 	const { festDetail } = useParams();
 	
-	const urlDetail = `http://localhost:3333/tickets/${festDetail}`;
+	const urlDetail = `http://localhost:3333/tickets/?url=${festDetail}`;
+	
 	const getDetail = async () => {
 		try {
 			const response = await fetch(urlDetail);
 			const result = await response.json();
-			setDetail(result);
+			setDetail(result[0]);
+			
 		} catch (error) {
 			console.log(error);
 		}
