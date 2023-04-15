@@ -17,6 +17,12 @@ npm run dev
 ```
 The project will start on localhost
 
+Login
+```shell
+Email: user@mail.com
+Password: user123
+```
+
 # Developing
 ###  Build with
 - Vite
