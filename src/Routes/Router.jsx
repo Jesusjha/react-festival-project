@@ -13,22 +13,13 @@ import ProtectedRoutes from './ProtectedRoutes';
 function RouterPath() {
 	return (
 		<Routes>
-			{/* A way to render the Navbar component on every page. */}
 			<Route index element={<Home />} />
 			<Route path='/' element={<Navbar />}>
 				<Route path='mainstage' element={<Mainstage />} />
 				<Route path='mainstage/:festDetail' element={<TicketDetail />} />
 				<Route path='contact' element={<Contact />} />
 				<Route path='login' element={<Profile />} />
-				{/* A protected route. */}
-				<Route
-					path='checkout'
-					element={
-						<ProtectedRoutes>
-							<Checkout />
-						</ProtectedRoutes>
-					}
-				/>
+				<Route path='checkout' element={ <ProtectedRoutes> <Checkout /> </ProtectedRoutes> } />
 			</Route>
 			<Route path='*' element={<NotFound replace />} />
 		</Routes>

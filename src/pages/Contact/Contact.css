@@ -1,0 +1,14 @@
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+} 
+
+.contact--text {
+  font-family: var(--project-font);
+  font-size: 5rem;
+  color: #e5e5e5;
+  margin-bottom: 4rem;
+}

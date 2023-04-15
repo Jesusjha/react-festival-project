@@ -5,24 +5,25 @@ import CarouselTL from '../../../../assets/images/carousel-TL.jpg';
 import CarouselMF from '../../../../assets/images/carousel-MF.jpg';
 import CarouselUMF from '../../../../assets/images/carousel-UMF.jpg';
 import CarouselEDC from '../../../../assets/images/carousel-EDC.jpg';
+import { Link } from 'react-router-dom';
 
 const CarouselFest = () => {
 	return (
 		<div className='carousel__container'>
     <Carousel fade variant="dark">
       <Carousel.Item>
-        <img
-          className="item__image d-block"
-          src={CarouselTL}
-          alt="First slide"
-        />
+          <img
+            className="item__image d-block"
+            src={CarouselTL}
+            alt="First slide"
+          />
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="item__image d-block"
-          src={CarouselUMF}
-          alt="Second slide"
-        />
+          <img
+            className="item__image d-block"
+            src={CarouselUMF}
+            alt="Second slide"
+          />
       </Carousel.Item>
       <Carousel.Item>
         <img

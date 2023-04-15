@@ -16,4 +16,10 @@ export const BlueBtn = styled.button`
 		border: none;
 		box-shadow: 0 0 20px #11dafd91;
 	}
+
+	&.back__button {
+		height: 3rem;
+		font-size: 1.2rem;
+		font-weight: 500;
+	}
 `;
