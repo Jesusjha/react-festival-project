@@ -12,8 +12,8 @@ const AuthContextProvider = ({ children }) => {
   const navigate = useNavigate();
 
 	const adminUser = {
-		email: 'jesus@mail.com',
-		password: 'jesus123',
+		email: 'user@mail.com',
+		password: 'user123',
 	};
 
 	const Login = ({email, password, name}) => {
