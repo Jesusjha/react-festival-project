@@ -4,7 +4,7 @@ import { BlueBtn } from '../../ui/BlueBtn/BlueBtn';
 import logo404 from '../../assets/images/logo-bg.svg'
 import './NotFound.css'
 
-import Link from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const NotFound = () => {
